@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.nav a {
+  color: black;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+/* Intro */
+
+#intro {
+  background-image: url(/img/intro-bg.jpg);
+  height: 815px;
+  padding: 30px;
+  font-family: 'New Tegomin', serif;
+}
+
+#hero-intro {
+  padding-top: 250px;
+  color: black;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+#intro-h1 {
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+#intro-p {
+  font-size: 1.2em;
+}
+
+.learn-more {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: larger;
+  color: black;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* Blog */
+
+#blog {
+  font-size: larger;
+  height: 1700px;
+  background-image: url(/img/blog-bg.jpg);
+  padding-top: 200px;
+  background-size: cover;
+  background: absolute;
+}
+
+.blog {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* Footer */
+footer {
+  height: 100px;
+  padding: 20px;
+  padding-top: 30px;
+  background-image: url(/img/footer-bg.jpg);
+  width: 100%;
+  color: black;
+}
+
+#footer-h3 {
+  float: right;
+}
